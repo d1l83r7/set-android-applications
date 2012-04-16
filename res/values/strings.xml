@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GeoLocatorActivity!</string>
+    <string name="app_name">GeoLocator</string>
+	<string name="gps_signal_not_found">Señal de GPS no encontrada. Compruebe el estado del GPS</string>
+	<string name="gps_signal_found">Señal de GPS encontrada correctamente</string>
+	<string name="search">Buscando...</string>
+	<string name="search_signal_gps">Buscar posición</string>
+	<string name="btPlay">Reproducir</string>
+	<string name="btsearch">Buscar situación</string>
+	<string name="btconfig">Configurar servicios</string>
+	<string name="btviewmap">Ver mapa</string>
+	
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/fondoapp"
+    android:id="@+id/configure" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_alignParentBottom="true" 
+	android:layout_centerHorizontal="true">
+
+    <CheckBox
+        android:id="@+id/touristpoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntos turísticos"
+        android:layout_marginTop="100dip" />
+    
+    <CheckBox
+        android:id="@+id/police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comisarias"/>
+    
+    <CheckBox
+        android:id="@+id/restaurantes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurantes"/>
+    
+    <CheckBox
+        android:id="@+id/infopoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Puntos de información"/>
+		
+</LinearLayout>

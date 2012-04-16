@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/fondoapp"
+    android:id="@+id/zoom" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_alignParentBottom="true" 
+	android:layout_centerHorizontal="true">
+		<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_marginTop="100dip" />
+		
+		<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description" />
+		
+		<Button android:id="@+id/btPlay"
+		    android:text="@string/btPlay"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		
+		<ImageView 
+		    android:id="@+id/image"
+      		android:layout_height="wrap_content"
+		    android:layout_width="wrap_content"/>
+</LinearLayout>

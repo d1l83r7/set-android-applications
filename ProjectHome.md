@@ -1,0 +1,1 @@
+This is a set of projects with different examples of Android Applicacions
